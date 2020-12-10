@@ -1,5 +1,5 @@
 ---
-- name: Install apt packages for django development
+- name: Install apt packages for python development
   apt: name={{item}}
   with_items:
     - binutils 
